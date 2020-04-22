@@ -1,7 +1,7 @@
 //================================================================================================================
 // Problem Name        : Expogo
 // Link to problem     : https://codingcompetitions.withgoogle.com/codejam/round/000000000019fef2/00000000002d5b62
-// Author              : Ktcoder
+// Author              : ktcoder
 // Description         : Use of Bit Manipuation and constructive algorithm
 //================================================================================================================
 
