@@ -1,3 +1,10 @@
+//================================================================================================================
+// Problem Name        : Expogo
+// Link to problem     : https://codingcompetitions.withgoogle.com/codejam/round/000000000019fef2/00000000002d5b62
+// Author              : Ktcoder
+// Description         : Use of Bit Manipuation and constructive algorithm
+//================================================================================================================
+
 #include<bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
