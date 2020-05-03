@@ -6,11 +6,6 @@
 //================================================================================================================
 
 #include<bits/stdc++.h>
-#include <ext/pb_ds/assoc_container.hpp>
-#include <ext/pb_ds/tree_policy.hpp>
-#define ss  ios_base::sync_with_stdio(false);cin.tie(NULL);
-#define present(container, element) (container.find(element) != container.end())
-#define ss  ios_base::sync_with_stdio(false);cin.tie(NULL);
 #define all(c) c.begin(), c.end()
 #define pb push_back
 #define mp make_pair
@@ -21,32 +16,9 @@
 #define MAXN   1000001
 typedef long long ll;
 using namespace std;
-using namespace __gnu_pbds;
-typedef tree<ll, null_type, less<ll>, rb_tree_tag, tree_order_statistics_node_update> new_set;
-
-long long fastpow(long long n, long long x, long long m){
-
-	long long ret = 1;
-
-	while(x){
-		if(x&1) (ret*=n)%=m;
-		x>>=1;
-		(n*=n)%=m;
-	}
-
-	return ret;
-}
-ll add(ll a,ll b){
-	return((a%mod)+(b%mod))%mod;
-}
-ll prod(ll a,ll b){
-	a%=mod;
-	b%=mod;
-	return ((a%mod)*(b%mod)%mod);
-}
 int main()
 {
-	ss
+
 	int n,tests;
 	cin>>tests;
 	int cases=0;
